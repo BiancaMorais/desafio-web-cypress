@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+    stages {
+        stage('Git Clone') {
+            git credentialsId: 'github_credentials', url: 'https://github.com/BiancaMorais/desafio-web-cypress.git'
+        }
+        stage('Dependencies') {
+            steps {
+                bat 'npm i'
+            }
+        }
+          stage ('Verify') {
+            steps {
+                bat 'npm run cypress verify'
+            }
+        }
+        stage ('CY/CI') {
+            steps {
+                bat 'npm cy:ci'
+            }
+        }
+        stage('Run') {
+            steps {
+                bat 'npm cypress:run'
+            }
+        }
+    }
+}

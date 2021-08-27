@@ -1,0 +1,10 @@
+{
+    "baseUrl": "http://automationpractice.com/index.php",
+    "testFiles": "**/*.{feature,features}",
+    "integrationFolder": "cypress/integration",
+    "viewportWidth": 1024,
+    "viewportHeight": 768,
+    "defaultCommandTimeout": 10000,
+    "projectId": "25wpyd"
+    
+}

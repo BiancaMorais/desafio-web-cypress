@@ -1,0 +1,113 @@
+[
+  {
+    "description": "   As a user, want to conduct a search, to add the product to shopping cart",
+    "keyword": "Feature",
+    "name": "AddProduct",
+    "line": 1,
+    "id": "addproduct",
+    "tags": [],
+    "uri": "addProduct.feature",
+    "elements": [
+      {
+        "id": "addproduct;add-faded-short-sleeve-to-cart",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add Faded Short Sleeve to Cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "that access Automation Practice",
+            "result": {
+              "status": "passed",
+              "duration": 7049000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click on search text area",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "fill in the search field with the product called Faded Short Sleeve",
+            "result": {
+              "status": "passed",
+              "duration": 445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "click on the search button",
+            "result": {
+              "status": "passed",
+              "duration": 1667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "must get the result of the product",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "check if the product was successfully added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "add the product found to shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "check if the added product is equivalent to the product researched and chose",
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "check if the product has been added in my cart and if it is in stock",
+            "result": {
+              "status": "passed",
+              "duration": 2118000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

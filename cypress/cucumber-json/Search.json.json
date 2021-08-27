@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    As a user, I want to conduct a search",
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "Search.feature",
+    "elements": [
+      {
+        "id": "search;search-for-faded-short-sleeve",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Search for Faded Short Sleeve",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "that access Automation Practice",
+            "result": {
+              "status": "passed",
+              "duration": 7085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "that click in the field of search",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "fill in the search field with the product called Faded Short Sleeve",
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "click on the search button",
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "must get the result of the product",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

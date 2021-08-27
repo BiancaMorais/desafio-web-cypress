@@ -1,0 +1,33 @@
+{
+  "name": "automacao-cypress-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [],
+  "author": "Bianca Morais Souza",
+  "description": "Automation performed to apply Cucumber to Cypress.",
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "scripts": {
+    "start": "my-server -p 3030",
+    "cypress:run": "cypress run --record --key 91e6fd39-ff45-4897-b112-a25544f8db84",
+    "test": "start-server-and-test start http://localhost:3030 cy:run",
+    "cy:ci": "START_SERVER_AND_TEST_INSECURE=1 start-server-and-test start https-get://localhost:3030 cy:run",    
+    "postcypress:run": "node ./cypress/support/reports/reporterPage.js"    
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  },
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "@cypress/webpack-preprocessor": "5.4.11",
+    "cypress-cucumber-preprocessor": "4.0.3"
+  }
+}
