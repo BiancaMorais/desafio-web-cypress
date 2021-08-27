@@ -1,4 +1,4 @@
-# 🚀 Automação de Testes com Cypresse e Cucumber
+# 🚀 Automação de Testes com Cypress e Cucumber
 
 Projeto com o intuito de realizar a automação de dois cenários de testes para a página "Your Logo - A New Experience", utilizando Cypress, Cucumber, PageObjects e Reports.
 
